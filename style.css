@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+html{
+    height: 100%;
+
+}
+
+body{
+    background-image: url(images/bryan-goff-f7YQo-eYHdM-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.box-login {
+    width: 300px;
+    height: 400px;
+    background-color: #ffffff77;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 15px;
+}
+
+.box-img{
+    display: flex;
+    align-items: center;
+    border-left: 50px;
+}
+
+.box-img h2{
+  color: #000000;  
+
+}
+.box-login .boneco{
+    background-image: url(images/user-3296.png);
+    background-position: center;
+    background-size: cover;
+    width:80px;
+    height: 80px;
+   margin-right: 60px;
+   text-align: center;
+    margin-bottom: 20px;
+}
+
+.box-login label{
+    display: block;
+    color: #000000;
+    font-weight: 600;
+
+}
+.box-login input[type='text'], input[type='password']{
+    width: 100%;
+    line-height: 25px;
+    border: none;
+
+}
+.box-login input[type='text']{
+    margin-bottom: 20px;
+}
+.box-login a{
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+.box-login input[type='submit']{
+   display: block;
+   width: 100%;
+   padding: 10px 20px;
+   font-size: 20px;
+   background-color: #252525; 
+   color: #fff;
+   border: 0;
+   margin-top: 15px;
+   cursor: pointer;
+   border-radius: 15px;
+
+}
